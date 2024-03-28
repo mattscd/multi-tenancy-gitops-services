@@ -14,9 +14,9 @@ metadata:
 spec:
   # If present, use the storageClassName from the values.yaml, else use the
   # default storage class, setting nil means using default storage class
-  storageClassName: "ibmc-file-gold-gid"
+  storageClassName: "ocs-storagecluster-cephfs"
   accessModes:
-    - "ReadWriteOnce" 
+    - "ReadWriteOnce"
   resources:
     requests:
       storage: "100Mi"
